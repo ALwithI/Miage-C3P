@@ -1,13 +1,14 @@
 # Rapport de la semaine 4
 
+
 J’ai révisé d'autres notions importantes de Pharo..
 
 
-## 1. Éviter les tests de `nil`
+## 1. Éviter les tests de nil
 
-J’ai appris que `nil` représente l’absence de valeur , veut dire « rien ». C'est ce qu'il y a dans une variable quand on n'a rien mis dedans.
+J’ai appris que nil représente l’absence de valeur , veut dire rien . c'est ce qu'il y a dans une variable quand on n'a rien mis dedans.
 nil ne sait rien faire : si on lui envoie un message, ça plante.
-donc il faut souvent vérifier avec `ifNil:` ou `ifNotNil:` avant d’utiliser le résultat.
+donc il faut souvent vérifier avec ifNil: ou ifNotNil: avant d’utiliser le résultat.
 
 Pour éviter cela, plusieurs solutions sont possibles :
 
