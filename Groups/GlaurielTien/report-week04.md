@@ -2,7 +2,33 @@
 
 ## Glauriel
 
-**What I Learned:**
+Glauriel
+
+**What I Learned**
+
+* **Composite Design Pattern**: Thanks to the System Files exercise, I now have a better understanding of recursion and how it is used in the Composite design pattern.
+
+* **NullObject**: I learned why it can be useful to avoid returning nil, as it forces client code to constantly perform null checks. Instead, there are different approaches, such as returning an empty collection or using a lazy object.
+
+**Exercises & Projects**
+
+* **FileSystem-Composite**
+
+To improve my understanding of the Composite design pattern, I completed the FileSystem exercise. Here the link for the project : 
+https://github.com/badjilaglaurielfauster-glitch/SystemFiles
+
+DoubleDispatch
+
+Completed the Double Dispatch exercise. Here the link for the project : https://github.com/badjilaglaurielfauster-glitch/DoubleDispatch
+
+Chess
+
+Continued working on the first chess kata, focusing on pawn movement.
+Pawns can now capture enemy pieces diagonally.
+The repository has not been updated yet because I currently have an issue with Pharo Launcher.
+
+https://github.com/badjilaglaurielfauster-glitch/Chess
+
 
 ## Tien
 
